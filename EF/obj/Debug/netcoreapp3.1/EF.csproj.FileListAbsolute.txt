@@ -1,0 +1,12 @@
+F:\Entropyzero\ExcelReader\EF\bin\Debug\netcoreapp3.1\EF.deps.json
+F:\Entropyzero\ExcelReader\EF\bin\Debug\netcoreapp3.1\EF.dll
+F:\Entropyzero\ExcelReader\EF\bin\Debug\netcoreapp3.1\EF.pdb
+F:\Entropyzero\ExcelReader\EF\bin\Debug\netcoreapp3.1\BL.dll
+F:\Entropyzero\ExcelReader\EF\bin\Debug\netcoreapp3.1\BL.pdb
+F:\Entropyzero\ExcelReader\EF\obj\Debug\netcoreapp3.1\EF.csproj.AssemblyReference.cache
+F:\Entropyzero\ExcelReader\EF\obj\Debug\netcoreapp3.1\EF.AssemblyInfoInputs.cache
+F:\Entropyzero\ExcelReader\EF\obj\Debug\netcoreapp3.1\EF.AssemblyInfo.cs
+F:\Entropyzero\ExcelReader\EF\obj\Debug\netcoreapp3.1\EF.csproj.CoreCompileInputs.cache
+F:\Entropyzero\ExcelReader\EF\obj\Debug\netcoreapp3.1\EF.csproj.CopyComplete
+F:\Entropyzero\ExcelReader\EF\obj\Debug\netcoreapp3.1\EF.dll
+F:\Entropyzero\ExcelReader\EF\obj\Debug\netcoreapp3.1\EF.pdb

@@ -1,0 +1,6 @@
+F:\Entropyzero\ExcelReader\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+F:\Entropyzero\ExcelReader\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+F:\Entropyzero\ExcelReader\BL\bin\Debug\BL.dll
+F:\Entropyzero\ExcelReader\BL\bin\Debug\BL.pdb
+F:\Entropyzero\ExcelReader\BL\obj\Debug\BL.dll
+F:\Entropyzero\ExcelReader\BL\obj\Debug\BL.pdb
