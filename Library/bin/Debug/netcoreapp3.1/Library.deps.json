@@ -8,10 +8,16 @@
     ".NETCoreApp,Version=v3.1": {
       "Library/1.0.0": {
         "dependencies": {
+          "BL": "1.0.0",
           "Interop.Microsoft.Office.Interop.Excel": "1.9.0.0"
         },
         "runtime": {
           "Library.dll": {}
+        }
+      },
+      "BL/1.0.0": {
+        "runtime": {
+          "BL.dll": {}
         }
       },
       "Interop.Microsoft.Office.Interop.Excel/1.9.0.0": {
@@ -26,6 +32,11 @@
   },
   "libraries": {
     "Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

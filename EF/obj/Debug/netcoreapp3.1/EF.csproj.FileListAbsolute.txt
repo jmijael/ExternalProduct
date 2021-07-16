@@ -10,3 +10,15 @@ F:\Entropyzero\ExcelReader\EF\obj\Debug\netcoreapp3.1\EF.csproj.CoreCompileInput
 F:\Entropyzero\ExcelReader\EF\obj\Debug\netcoreapp3.1\EF.csproj.CopyComplete
 F:\Entropyzero\ExcelReader\EF\obj\Debug\netcoreapp3.1\EF.dll
 F:\Entropyzero\ExcelReader\EF\obj\Debug\netcoreapp3.1\EF.pdb
+F:\Entropyzero\ExternalProduct\EF\bin\Debug\netcoreapp3.1\EF.deps.json
+F:\Entropyzero\ExternalProduct\EF\bin\Debug\netcoreapp3.1\EF.dll
+F:\Entropyzero\ExternalProduct\EF\bin\Debug\netcoreapp3.1\EF.pdb
+F:\Entropyzero\ExternalProduct\EF\bin\Debug\netcoreapp3.1\BL.dll
+F:\Entropyzero\ExternalProduct\EF\bin\Debug\netcoreapp3.1\BL.pdb
+F:\Entropyzero\ExternalProduct\EF\obj\Debug\netcoreapp3.1\EF.csproj.AssemblyReference.cache
+F:\Entropyzero\ExternalProduct\EF\obj\Debug\netcoreapp3.1\EF.AssemblyInfoInputs.cache
+F:\Entropyzero\ExternalProduct\EF\obj\Debug\netcoreapp3.1\EF.AssemblyInfo.cs
+F:\Entropyzero\ExternalProduct\EF\obj\Debug\netcoreapp3.1\EF.csproj.CoreCompileInputs.cache
+F:\Entropyzero\ExternalProduct\EF\obj\Debug\netcoreapp3.1\EF.csproj.CopyComplete
+F:\Entropyzero\ExternalProduct\EF\obj\Debug\netcoreapp3.1\EF.dll
+F:\Entropyzero\ExternalProduct\EF\obj\Debug\netcoreapp3.1\EF.pdb

@@ -49,6 +49,7 @@
     <Compile Include="Interfaces\BussinesLogic\IstbProductDetail.cs" />
     <Compile Include="Interfaces\BussinesLogic\IstbURLDocument.cs" />
     <Compile Include="Interfaces\BussinesLogic\IstbURLType.cs" />
+    <Compile Include="Interfaces\DataLogic\IProductDocumentRepository.cs" />
     <Compile Include="Interfaces\DataLogic\IstbEntryRepository.cs" />
     <Compile Include="Interfaces\DataLogic\IstbLocaleRepository.cs" />
     <Compile Include="Interfaces\DataLogic\IstbProductRepository.cs" />
@@ -56,6 +57,7 @@
     <Compile Include="Interfaces\DataLogic\IstbURLDocumentRepository.cs" />
     <Compile Include="Interfaces\DataLogic\IstbURLTypeRepository.cs" />
     <Compile Include="Interfaces\DTO\IProductDocumentationInputDTO.cs" />
+    <Compile Include="Interfaces\DTO\IProductDocumentDTO.cs" />
     <Compile Include="Interfaces\DTO\IstbProductDetailDTO.cs" />
     <Compile Include="Interfaces\DTO\IstbEntryDTO.cs" />
     <Compile Include="Interfaces\DTO\IstbLocaleDTO.cs" />
@@ -70,6 +72,7 @@
     <Compile Include="Interfaces\Service\IstbURLTypeService.cs" />
     <Compile Include="Interfaces\Service\ProductDocumentationService.cs" />
     <Compile Include="Models\DTO\ProductDocumentationInputDTO.cs" />
+    <Compile Include="Models\DTO\ProductDocumentDTO.cs" />
     <Compile Include="Models\DTO\stbEntryDTO.cs" />
     <Compile Include="Models\DTO\stbLocaleDTO.cs" />
     <Compile Include="Models\DTO\stbProductDTO.cs" />

@@ -33,6 +33,7 @@
         "dependencies": {
           "BL": "1.0.0",
           "EF": "1.0.0",
+          "Library": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.8",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -1381,13 +1382,25 @@
       "EF/1.0.0": {
         "dependencies": {
           "BL": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "5.0.8"
+          "Microsoft.EntityFrameworkCore": "5.0.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.8"
         },
         "runtime": {
           "EF.dll": {}
         },
         "compile": {
           "EF.dll": {}
+        }
+      },
+      "Library/1.0.0": {
+        "dependencies": {
+          "BL": "1.0.0"
+        },
+        "runtime": {
+          "Library.dll": {}
+        },
+        "compile": {
+          "Library.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -3682,6 +3695,11 @@
       "sha512": ""
     },
     "EF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Library/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

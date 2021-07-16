@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-namespace ExternalProduct.Library
+using BL.Interfaces;
+namespace BL.Models
 {
-    public class ExternalProduct
+    public class ProductDocumentDTO : IProductDocumentDTO
     {
         public string Action { get; set; }
         public string ExternalProductID { get; set; }

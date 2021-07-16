@@ -1,11 +1,29 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "BL/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BL/1.0.0": {
+      "type": "project",
+      "path": "../BL/BL.csproj",
+      "msbuildProject": "../BL/BL.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "BL >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Mijael\\.nuget\\packages\\": {}
@@ -33,7 +51,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\Entropyzero\\ExternalProduct\\BL\\BL.csproj": {
+              "projectPath": "F:\\Entropyzero\\ExternalProduct\\BL\\BL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

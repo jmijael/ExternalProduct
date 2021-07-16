@@ -20,24 +20,11 @@ namespace ExternalProduct.Controllers
             this.LocaleRepo = LocaleRepo;
         }
 
-        //[HttpGet]
-        //public IEnumerable<ExternalProduct> Get()
-        //{
-        //    ExcelReader.Library.ExcelReader er = new ExcelReader.Library.ExcelReader("C:\\Users\\Mijael\\Downloads\\ProdDocumentation\\DocLitImport_V5.0.xlsx", 1);
-        //    return er.result;
-        //}
-
         [HttpGet]
-        public IEnumerable<stbLocaleDTO> Get()
+        public IEnumerable<ProductDocumentDTO> Get()
         {
-            return LocaleRepo.GetAll().Cast<stbLocaleDTO>();
+            ExternalProduct.Library.ExcelReader er = new ExternalProduct.Library.ExcelReader("C:\\Users\\Mijael\\Downloads\\ProdDocumentation\\DocLitImport_V5.0.xlsx", 1);
+            return er.result.Cast<ProductDocumentDTO>();
         }
-
-        //[HttpPost]
-        //public IEnumerable<ExternalProduct> SendExternalProduct(ExternalProductDto value)
-        //{
-        //    ExcelReader.Library.ExcelReader er = new ExcelReader.Library.ExcelReader("C:\\Users\\Mijael\\Downloads\\ProdDocumentation\\DocLitImport_V5.0.xlsx", 1);
-        //    return er.result;
-        //}
     }
 }

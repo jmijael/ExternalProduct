@@ -4,6 +4,16 @@
     "F:\\Entropyzero\\ExternalProduct\\Library\\Library.csproj": {}
   },
   "projects": {
+    "F:\\Entropyzero\\ExternalProduct\\BL\\BL.csproj": {
+      "restore": {
+        "projectUniqueName": "F:\\Entropyzero\\ExternalProduct\\BL\\BL.csproj",
+        "projectName": "BL",
+        "projectPath": "F:\\Entropyzero\\ExternalProduct\\BL\\BL.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "F:\\Entropyzero\\ExternalProduct\\Library\\Library.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +37,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "F:\\Entropyzero\\ExternalProduct\\BL\\BL.csproj": {
+                "projectPath": "F:\\Entropyzero\\ExternalProduct\\BL\\BL.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

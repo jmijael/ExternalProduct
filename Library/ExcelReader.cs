@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Office.Interop.Excel;
+using BL.Interfaces;
+using BL.Models;
 
 namespace ExternalProduct.Library
 {
     public class ExcelReader
     {
-        public List<ExternalProduct> result;
+        public List<IProductDocumentDTO> result;
         string path = "";
         _Application excel = new Application();
 
@@ -24,10 +26,10 @@ namespace ExternalProduct.Library
         }
         public void ReadFile()
         {
-            result = new List<ExternalProduct>();
+            result = new List<IProductDocumentDTO>();
             for (int rindex = 1 ; rindex<ws.UsedRange.Rows.Count;rindex++)
             {
-                ExternalProduct item = new ExternalProduct()
+                IProductDocumentDTO item = new ProductDocumentDTO()
                 {
                     Action = ReadCell(rindex, 0),
                     ExternalProductID = ReadCell(rindex, 1),

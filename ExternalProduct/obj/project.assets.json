@@ -1497,13 +1497,27 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "BL": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "5.0.8"
+          "Microsoft.EntityFrameworkCore": "5.0.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.8"
         },
         "compile": {
           "bin/placeholder/EF.dll": {}
         },
         "runtime": {
           "bin/placeholder/EF.dll": {}
+        }
+      },
+      "Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "BL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.dll": {}
         }
       }
     }
@@ -5727,12 +5741,18 @@
       "type": "project",
       "path": "../EF/EF.csproj",
       "msbuildProject": "../EF/EF.csproj"
+    },
+    "Library/1.0.0": {
+      "type": "project",
+      "path": "../Library/Library.csproj",
+      "msbuildProject": "../Library/Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "BL >= 1.0.0",
       "EF >= 1.0.0",
+      "Library >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.8"
     ]
   },
@@ -5768,6 +5788,9 @@
             },
             "F:\\Entropyzero\\ExternalProduct\\EF\\EF.csproj": {
               "projectPath": "F:\\Entropyzero\\ExternalProduct\\EF\\EF.csproj"
+            },
+            "F:\\Entropyzero\\ExternalProduct\\Library\\Library.csproj": {
+              "projectPath": "F:\\Entropyzero\\ExternalProduct\\Library\\Library.csproj"
             }
           }
         }
