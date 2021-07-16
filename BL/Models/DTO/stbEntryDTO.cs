@@ -12,9 +12,9 @@ namespace BL.Models
     [Table("stbEntry")]
     public class stbEntryDTO : IstbEntryDTO
     {
-        [Key]
         public Int64 LocaleId { get; set; }
-        public int ProductDetailId { get; set; }
-        public int ProductId { get; set; }
+        [Key]
+        public Int64 ProductDetailId { get; set; }
+        public Int64 ProductId { get; set; }
     }
 }

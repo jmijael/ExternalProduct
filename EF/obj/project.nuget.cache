@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q+OAmg3CnqTGXuYfAMXzzyjwiO4Tz2ck3GzF/H5BVN46YClPLCffaqlAGmM9uCyPv1FXFPpeEsk77kkJ0p65rw==",
+  "dgSpecHash": "udaXnkK3vywgHOZga58VPWUnWTwAqvPe5M6vYv5Bky7pJzp4Wo3W1ssDv8QNvfs4WvGJW01DR/lsVXorKZGGqg==",
   "success": true,
-  "projectFilePath": "F:\\Entropyzero\\ExcelReader\\EF\\EF.csproj",
+  "projectFilePath": "F:\\Entropyzero\\ExternalProduct\\EF\\EF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mijael\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.8\\microsoft.entityframeworkcore.5.0.8.nupkg.sha512",
     "C:\\Users\\Mijael\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.8\\microsoft.entityframeworkcore.abstractions.5.0.8.nupkg.sha512",

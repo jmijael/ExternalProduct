@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 using BL.Interfaces;
-using BL.Models;
 
 namespace EF.Repository
 {
@@ -13,10 +12,9 @@ namespace EF.Repository
         {
             this.context = context;
         }
-        public IEnumerable<stbLocaleDTO> Get()
+        public IEnumerable<IstbLocaleDTO> GetAll()
         {
-            var result = context.stbLocales;
-            return result;
+            return context.stbLocales;
         }
     }
 }

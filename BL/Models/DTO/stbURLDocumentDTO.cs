@@ -9,12 +9,12 @@ using BL.Interfaces;
 
 namespace BL.Models
 {
-    [Table("stbURLDocument")]
-    public class stbURLDocumentDTO : IstbULRDocumentDTO
+    [Table("stbULRDocument")]
+    public class stbURLDocumentDTO : IstbURLDocumentDTO
     {
         [Key]
         public Int64 ProductDetailId { get; set; }
-        public Int64 URLTypeId { get; set; }
+        public int URLTypeId { get; set; }
         public string DocumentTitle { get; set; }
         public string URL { get; set; }
         public bool Verified { get; set; }

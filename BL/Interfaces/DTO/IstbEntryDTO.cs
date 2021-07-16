@@ -9,7 +9,7 @@ namespace BL.Interfaces
     public interface IstbEntryDTO
     {
         Int64 LocaleId { get; set; }
-        int ProductDetailId { get; set; }
-        int ProductId { get; set; }
+        Int64 ProductDetailId { get; set; }
+        Int64 ProductId { get; set; }
     }
 }

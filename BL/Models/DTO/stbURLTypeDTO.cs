@@ -13,7 +13,7 @@ namespace BL.Models
     public class stbURLTypeDTO : IstbURLTypeDTO
     {
         [Key]
-        public Int64 URLTypeId { get; set; }
+        public int URLTypeId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
     }

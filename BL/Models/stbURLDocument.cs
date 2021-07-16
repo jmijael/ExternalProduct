@@ -7,7 +7,7 @@ using BL.Interfaces;
 
 namespace BL.Models
 {
-    public class stbURLDocument : IstbULRDocument
+    public class stbURLDocument : IstbURLDocument
     {
         public int ProductDetailId { get; set; }
         public int URLTypeId { get; set; }

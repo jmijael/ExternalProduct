@@ -8,5 +8,6 @@ namespace BL.Interfaces
 {
     public interface IstbEntryRepository
     {
+        IEnumerable<IstbEntryDTO> GetAll();
     }
 }

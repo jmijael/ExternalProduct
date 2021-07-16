@@ -8,5 +8,6 @@ namespace BL.Interfaces
 {
     public interface IstbURLTypeRepository
     {
+        IEnumerable<IstbURLTypeDTO> GetAll();
     }
 }

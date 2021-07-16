@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using BL.Interfaces;
 
-namespace ExcelReader.Repository
+namespace ExternalProduct.Repository
 {
     public class ExternalProductRepository : IExternalProductRepository
     {

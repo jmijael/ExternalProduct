@@ -8,6 +8,6 @@ namespace BL.Interfaces
 {
     public interface IstbLocaleRepository
     {
-         IEnumerable<stbLocaleDTO> Get();
+         IEnumerable<IstbLocaleDTO> GetAll();
     }
 }

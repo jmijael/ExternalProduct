@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using BL.Interfaces;
 
-namespace ExcelReader.Models
+namespace ExternalProduct.Models
 {
     public class ExternalProduct : IExternalProduct
     {

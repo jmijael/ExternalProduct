@@ -47,26 +47,29 @@
     <Compile Include="Interfaces\BussinesLogic\IstbLocale.cs" />
     <Compile Include="Interfaces\BussinesLogic\IstbProduct.cs" />
     <Compile Include="Interfaces\BussinesLogic\IstbProductDetail.cs" />
-    <Compile Include="Interfaces\BussinesLogic\IstbULRDocument.cs" />
+    <Compile Include="Interfaces\BussinesLogic\IstbURLDocument.cs" />
     <Compile Include="Interfaces\BussinesLogic\IstbURLType.cs" />
     <Compile Include="Interfaces\DataLogic\IstbEntryRepository.cs" />
     <Compile Include="Interfaces\DataLogic\IstbLocaleRepository.cs" />
     <Compile Include="Interfaces\DataLogic\IstbProductRepository.cs" />
     <Compile Include="Interfaces\DataLogic\IstbProductDetailRepository.cs" />
-    <Compile Include="Interfaces\DataLogic\IstbULRDocumentRepository.cs" />
+    <Compile Include="Interfaces\DataLogic\IstbURLDocumentRepository.cs" />
     <Compile Include="Interfaces\DataLogic\IstbURLTypeRepository.cs" />
+    <Compile Include="Interfaces\DTO\IProductDocumentationInputDTO.cs" />
     <Compile Include="Interfaces\DTO\IstbProductDetailDTO.cs" />
     <Compile Include="Interfaces\DTO\IstbEntryDTO.cs" />
     <Compile Include="Interfaces\DTO\IstbLocaleDTO.cs" />
     <Compile Include="Interfaces\DTO\IstbProductDTO.cs" />
-    <Compile Include="Interfaces\DTO\IstbULRDocumentDTO.cs" />
+    <Compile Include="Interfaces\DTO\IstbURLDocumentDTO.cs" />
     <Compile Include="Interfaces\DTO\IstbURLTypeDTO.cs" />
     <Compile Include="Interfaces\Service\IstbEntryService.cs" />
     <Compile Include="Interfaces\Service\IstbLocaleService.cs" />
     <Compile Include="Interfaces\Service\IstbProductDetailService.cs" />
     <Compile Include="Interfaces\Service\IstbProductService.cs" />
-    <Compile Include="Interfaces\Service\IstbULRDocumentService.cs" />
+    <Compile Include="Interfaces\Service\IstbURLDocumentService.cs" />
     <Compile Include="Interfaces\Service\IstbURLTypeService.cs" />
+    <Compile Include="Interfaces\Service\ProductDocumentationService.cs" />
+    <Compile Include="Models\DTO\ProductDocumentationInputDTO.cs" />
     <Compile Include="Models\DTO\stbEntryDTO.cs" />
     <Compile Include="Models\DTO\stbLocaleDTO.cs" />
     <Compile Include="Models\DTO\stbProductDTO.cs" />
@@ -87,7 +90,6 @@
     <Compile Include="Models\DTO\ExternalProductDTO.cs" />
     <Compile Include="Models\ExternalProduct.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service\ExternalProductService.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

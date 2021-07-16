@@ -548,11 +548,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Entropyzero\\ExcelReader\\EF\\EF.csproj",
+      "projectUniqueName": "F:\\Entropyzero\\ExternalProduct\\EF\\EF.csproj",
       "projectName": "EF",
-      "projectPath": "F:\\Entropyzero\\ExcelReader\\EF\\EF.csproj",
+      "projectPath": "F:\\Entropyzero\\ExternalProduct\\EF\\EF.csproj",
       "packagesPath": "C:\\Users\\Mijael\\.nuget\\packages\\",
-      "outputPath": "F:\\Entropyzero\\ExcelReader\\EF\\obj\\",
+      "outputPath": "F:\\Entropyzero\\ExternalProduct\\EF\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mijael\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -569,8 +569,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "F:\\Entropyzero\\ExcelReader\\BL\\BL.csproj": {
-              "projectPath": "F:\\Entropyzero\\ExcelReader\\BL\\BL.csproj"
+            "F:\\Entropyzero\\ExternalProduct\\BL\\BL.csproj": {
+              "projectPath": "F:\\Entropyzero\\ExternalProduct\\BL\\BL.csproj"
             }
           }
         }
